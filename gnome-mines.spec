@@ -2,7 +2,7 @@
 
 Name:		gnome-mines
 Version:	3.16.1
-Release:	2
+Release:	3
 Summary:	GNOME Mines Sweeper game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
