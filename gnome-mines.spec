@@ -17,6 +17,8 @@ BuildRequires:	libxml2-utils
 BuildRequires:	vala-devel >= 0.16.0
 BuildRequires:	pkgconfig(libgnome-games-support-1)
 BuildRequires:	meson
+# For fix build issue:  "error: Package `librsvg-2.0' not found in specified Vala API directories or GObject-Introspection GIR directories" (penguin)
+BuildRequires: librsvg-vala-devel
 Obsoletes:	gnomine
 # For help
 Requires:	yelp
