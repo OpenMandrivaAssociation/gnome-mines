@@ -42,10 +42,10 @@ using hints from squares you have already cleared.
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-#{_datadir}/applications/%{name}.desktop
-#{_datadir}/glib-2.0/schemas/org.gnome.mines.gschema.xml
+#{_datadir}/applications/org.gnome.Mines.desktop
+#{_datadir}/glib-2.0/schemas/org.gnome.Mines.gschema.xml
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
-#{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.Mines.appdata.xml
 
