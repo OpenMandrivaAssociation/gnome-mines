@@ -31,7 +31,7 @@ using hints from squares you have already cleared.
 %setup -q
 
 %build
-%meson -Ddocs=true
+%meson
 %meson_build
 
 %install
