@@ -48,5 +48,5 @@ using hints from squares you have already cleared.
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/org.gnome.Mines.appdata.xml
+%{_datadir}/metainfo/org.gnome.Mines.metainfo.xml
 
