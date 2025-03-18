@@ -2,14 +2,14 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-mines
-Version:	40.1
+Version:	48.alpha.2
 Release:	4
 Summary:	GNOME Mines Sweeper game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Apps/Mines
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	intltool
 BuildRequires:	itstool
