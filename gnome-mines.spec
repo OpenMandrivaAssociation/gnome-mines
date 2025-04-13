@@ -44,6 +44,7 @@ using hints from squares you have already cleared.
 %doc COPYING
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Mines.desktop
+%{_datadir}/dbus-1/services/org.gnome.Mines.service
 %{_datadir}/glib-2.0/schemas/org.gnome.Mines.gschema.xml
 %{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
