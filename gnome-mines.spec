@@ -12,6 +12,8 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:  pkgconfig(libadwaita-1)
+BuildRequires:  appstream
+BuildRequires:  desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
