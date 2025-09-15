@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-mines
-Version:	48.1
+Version:	49.rc
 Release:	1
 Summary:	GNOME Mines Sweeper game
 License:	GPLv2+ and CC-BY-SA
