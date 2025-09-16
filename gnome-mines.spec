@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-mines
-Version:	49.rc
+Version:	49.0.1
 Release:	1
 Summary:	GNOME Mines Sweeper game
 License:	GPLv2+ and CC-BY-SA
@@ -31,7 +31,7 @@ The popular logic puzzle minesweeper. Find mines on a grid
 using hints from squares you have already cleared.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %meson
