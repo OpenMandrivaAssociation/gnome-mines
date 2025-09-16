@@ -40,7 +40,7 @@ using hints from squares you have already cleared.
 %install
 %meson_install
 
-rm -f %{buildroot}/usr/include/gnome-mines_gnome-games-support/libgnome-games-support.h
+#rm -f %{buildroot}/usr/include/gnome-mines_gnome-games-support/libgnome-games-support.h
 
 %find_lang %{name} --with-gnome
 
@@ -54,8 +54,8 @@ rm -f %{buildroot}/usr/include/gnome-mines_gnome-games-support/libgnome-games-su
 %{_iconsdir}/*/*/*/*
 %{_mandir}/man6/%{name}.6*
 %{_datadir}/metainfo/org.gnome.Mines.metainfo.xml
-%{_libdir}/libgnome-games-support*
+#{_libdir}/libgnome-games-support*
 %{_datadir}/locale/*/LC_MESSAGES/gnome-mines_libgnome-games-support.mo
-%{_datadir}/vala/vapi/gnome-games-support-3.vapi
+#{_datadir}/vala/vapi/gnome-games-support-3.vapi
 
 
