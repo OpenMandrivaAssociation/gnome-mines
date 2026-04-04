@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-mines
-Version:	49.0.1
+Version:	50.0
 Release:	1
 Summary:	GNOME Mines Sweeper game
 License:	GPLv2+ and CC-BY-SA
@@ -16,7 +16,7 @@ BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.0
 BuildRequires:	vala-devel >= 0.16.0
 BuildRequires:	pkgconfig(libgnome-games-support-2)
 BuildRequires:	meson
